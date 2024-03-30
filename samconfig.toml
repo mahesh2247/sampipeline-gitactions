@@ -15,7 +15,7 @@ lint = true
 
 [default.deploy.parameters]
 capabilities = "CAPABILITY_IAM"
-confirm_changeset = true
+confirm_changeset = false
 stack_name = "gitactionsstack"
 s3_prefix = "gitactionsstack"
 region = "us-east-1"
